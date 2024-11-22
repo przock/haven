@@ -24,6 +24,18 @@
     font-family: 'Victor Mono', monospace;
 }
 
+h2, h3 {
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.centered {
+    text-align: center;
+}
+
 body {
     background: var(--base00);  /* Lighter background */
     margin: 0;
@@ -47,9 +59,20 @@ h2 {
     color: var(--base05);  /* Default foreground */
 }
 
-h3 {
-    font-size: 16px;
-    text-align: center;
+.main-caption {
+    font-size: 14px;
     margin: 8px;
     color: var(--base05);  /* Default foreground */
+}
+
+#link-section {
+    padding: 8px;
+}
+
+.links {
+    display: flex;
+}
+
+.links dl {
+    margin: auto;
 }
